@@ -3,13 +3,13 @@ type QuestStates {
   Order: i32
   FlagsPresent: [QuestFlags]
   FlagsMissing: [QuestFlags]
-  Text: string
+  Text: string @localized
   _: bool
-  Message: string
-  MapPinsKeys1: [MapPins]
+  Message: string @localized
+  MapPinsKeys: [MapPins]
   _: i32
-  MapPinsTexts: string
-  MapPinsKeys2: MapPins
+  MapPinsText: string @localized
+  MapPinsKey: MapPins
   _: [rid]
   _: bool
   _: [i32]

@@ -40,4 +40,5 @@ type Projectiles {
   BallisticBounceOverride: BallisticBounceOverride
   _: string
   _: [string]
+  _: [string]
 }

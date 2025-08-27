@@ -1,15 +1,15 @@
 type MtxTypes {
-  Id: string @unique
-  Hash32: u32
-  Name: string
-  _: string
-  Description: string
-  _: string
-  _: string
-  CategoryName: string
+  Id: string
+  Hash32: i32 @unique
+  Name: string @localized
+  _: string @localized
+  Description1: string @localized
+  Description2: string @localized
+  _: string @localized
+  Type: string @localized
   _: rid
   _: rid
-  ShopTag: ShopTag
+  Theme: ShopTag
   _: string
   _: i32
   _: i32
@@ -21,5 +21,5 @@ type MtxTypes {
   _: bool
   _: bool
   _: bool
-  _: string
+  _: string @localized
 }

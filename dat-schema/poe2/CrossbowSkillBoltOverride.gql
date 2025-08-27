@@ -1,4 +1,5 @@
 type CrossbowSkillBoltOverride {
   ActiveSkill: ActiveSkills @unique
+  _: i32
   ProjectileOverride: ProjectileOverrides
 }
