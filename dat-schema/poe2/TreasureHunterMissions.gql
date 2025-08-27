@@ -1,0 +1,17 @@
+type TreasureHunterMissions {
+  Id: string @unique
+  Chest: Chests
+  _: rid
+  _: [rid]
+  _: [rid]
+  _: [rid]
+  _: i32
+  _: i32
+  _: i32
+  _: string
+  _: string
+  _: string
+  _: bool
+  _: i32
+  _: i32
+}

@@ -1,7 +1,7 @@
 type QuestItems {
   BaseItemType: BaseItemTypes @unique
   TriggeredQuestFlag: QuestFlags
-  _: QuestFlags
+  UsedQuestFlag: QuestFlags
   _: i32
   _: [_] # All rows empty
   _: bool
@@ -10,6 +10,8 @@ type QuestItems {
   Description: ClientStrings
   Script: string
   _: rid
-  _: rid
+  QuestFlag3: QuestFlags
   _: i32
+  SellToNPCs: [NPCs]
+  QuestFlag4: QuestFlags
 }

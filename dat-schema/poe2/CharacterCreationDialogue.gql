@@ -1,6 +1,6 @@
 type CharacterCreationDialogue {
+  Character: Characters
+  IntroLine: NPCTextAudio
   _: rid
-  _: rid
-  _: rid
-  _: rid
+  EscapeLine: NPCTextAudio
 }

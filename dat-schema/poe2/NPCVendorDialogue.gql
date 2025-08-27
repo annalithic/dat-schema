@@ -1,0 +1,8 @@
+type NPCVendorDialogue {
+  Id: string @unique
+  NPCs: [NPCs]
+  TextAudio: NPCTextAudio
+  DialogueConditions: [NPCVendorDialogueConditions]
+  _: i32
+  _: i32
+}

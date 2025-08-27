@@ -1,0 +1,14 @@
+type PackFormation {
+  Id: string @unique
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  _: bool
+  _: bool
+  _: i32
+  FormationController: MonsterVarieties
+  _: bool
+  _: bool
+}

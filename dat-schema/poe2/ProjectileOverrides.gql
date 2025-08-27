@@ -1,0 +1,7 @@
+type ProjectileOverrides {
+  Id: string @unique
+  _: [string] @file(ext: ".ao")
+  _: string @file(ext: ".ao")
+  _: [string] @file(ext: ".ao")
+  ArrowVisual: ItemVisualIdentity
+}

@@ -1,0 +1,5 @@
+type CombatUiPrompts {
+  Id: string @unique
+  Text: string
+  SoundEffect: SoundEffects
+}

@@ -1,0 +1,8 @@
+type AzmeriWoodsDustType {
+  Id: string @unique
+  Name: string
+  SymbolUIImage: string
+  Animation: MiscAnimated
+  Beam: MiscBeams
+  Description: string
+}

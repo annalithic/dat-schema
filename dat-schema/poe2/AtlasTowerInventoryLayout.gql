@@ -1,0 +1,9 @@
+type AtlasTowerInventoryLayout {
+  _: i32
+  _: i32
+  _: string
+  _: i32
+  _: i32
+  _: i32
+  _: string
+}

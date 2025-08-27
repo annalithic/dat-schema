@@ -1,0 +1,6 @@
+type TouchInteractionType {
+  Id: string @unique
+  _: string
+  _: string
+  _: string
+}

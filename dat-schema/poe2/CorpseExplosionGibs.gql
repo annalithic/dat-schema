@@ -1,0 +1,4 @@
+type CorpseExplosionGibs {
+  Id: string @unique
+  EffectPacks: [string] @file(ext: ".epk")
+}

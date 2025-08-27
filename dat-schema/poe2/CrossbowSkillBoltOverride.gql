@@ -1,0 +1,4 @@
+type CrossbowSkillBoltOverride {
+  ActiveSkill: ActiveSkills @unique
+  ProjectileOverride: ProjectileOverrides
+}

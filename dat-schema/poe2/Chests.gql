@@ -5,4 +5,43 @@ type Chests {
   Name: string
   AOFiles: [string] @file(ext: ".ao")
   _: bool
+  _: i32
+  _: bool
+  _: bool
+  _: i32
+  _: [rid]
+  BaseItemTypesKey: BaseItemTypes
+  _: bool
+  ModsKeys: [Mods]
+  TagsKeys: [Tags]
+  ChestEffectsKey: ChestEffects
+  MinLevel: i32
+  _: string
+  MaxLevel: i32
+  Corrupt_AchievementItemsKey: AchievementItems
+  CurrencyUse_AchievementItemsKey: AchievementItems
+  Encounter_AchievementItemsKeys: [AchievementItems]
+  LockedBackendError: BackendErrors
+  InheritsFrom: string @files(ext: [".ot", ".otc"])
+  _: bool
+  MinimapIcon: MinimapIcons
+  _: [i32]
+  _: string
+  _: i32
+  _: i32
+  _: bool
+  TextColour: Colours
+  _: rid
+  _: bool
+  _: bool
+  OpenCorruptedRareAchievementItems: [AchievementItems]
+  IsHardmode: bool
+  StatsHardmode: [Stats]
+  _: bool
+  _: bool
+  _: bool
+  _: i32
+  _: i32
+  _: rid
+  _: bool
 }

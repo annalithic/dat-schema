@@ -1,0 +1,16 @@
+type Animation {
+  Id: string @unique
+  _: bool
+  _: bool
+  Mainhand_AnimationKey: Animation
+  Offhand_AnimationKey: Animation
+  _: bool
+  AnimationVariationStat: Stats
+  StartAnimation: Animation
+  _: bool
+  EndAnimation: Animation
+  _: [i32]
+  _: bool
+  _: i32
+  _: bool
+}

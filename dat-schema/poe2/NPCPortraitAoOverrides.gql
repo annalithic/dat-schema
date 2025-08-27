@@ -1,0 +1,4 @@
+type NPCPortraitAoOverrides {
+  _: string
+  _: NPCPortraits
+}

@@ -1,0 +1,5 @@
+type AdvancedCraftingBenchCustomTags {
+  _: string
+  _: string
+  _: i32
+}

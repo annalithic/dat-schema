@@ -2,29 +2,29 @@
   ItemClass: ItemClasses
   _: bool
   _: bool
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
-  _: rid
+  DamageStat: Stats
+  CriticalChanceStat: Stats
+  MinimumAddedPhysicalStat: Stats
+  MaximumAddedPhysicalStat: Stats
+  MinimumAddedFireStat: Stats
+  MaximumAddedFireStat: Stats
+  MinimumAddedColdStat: Stats
+  MaximumAddedColdStat: Stats
+  MinimumAddedLightningStat: Stats
+  MaximumAddedLightningStat: Stats
+  MinimumAddedChaosStat: Stats
+  MaximumAddedChaosStat: Stats
+  CriticalMultiplierStat: Stats
+  PhysicalDamageStat: Stats
+  FireDamageStat: Stats
+  ColdDamageStat: Stats
+  KnockbackStat: Stats
+  KnockbackOnCritStat: Stats
+  AccuracyStat: Stats
+  PercentageAccuracyStat: Stats
+  AttackSpeedStat: Stats
+  RangeStat: Stats
+  ElementalDamageStat: Stats
+  Tag: Tags
   _: i32
 }

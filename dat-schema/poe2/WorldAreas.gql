@@ -6,7 +6,7 @@ type WorldAreas {
   HasWaypoint: bool
   Connections: [WorldAreas]
   AreaLevel: i32
-  HASH16: i16
+  HASH16: u16
   _: i32
   _: i32
   LoadingScreens: [string]
@@ -50,4 +50,27 @@ type WorldAreas {
   Environment: Environments
   _: i32
   TerrainPlugins: TerrainPlugins
+  _: rid
+  _: i32
+  _: bool
+  _: bool
+  _: i32
+  _: i32
+  _: i32
+  _: [rid]
+  WorldAreaLeagueChances: WorldAreaLeagueChances
+  _: rid
+  _: [_]
+  _: [_]
+  Ruleset: Rulesets
+  _: i32
+  _: [i32]
+  _: [i32]
+  _: [i32]
+  _: [QuestFlags]
+  _: i32
+  _: string
+  _: i32
+  _: i32
+  _: bool
 }

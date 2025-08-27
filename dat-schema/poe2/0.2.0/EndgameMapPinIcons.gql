@@ -1,0 +1,4 @@
+type EndgameMapPinIcons {
+  Id: string @unique
+  Icon: string
+}

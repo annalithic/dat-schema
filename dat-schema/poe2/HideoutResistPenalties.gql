@@ -1,0 +1,4 @@
+type HideoutResistPenalties {
+  Id: string @unique
+  Penalty: i32
+}

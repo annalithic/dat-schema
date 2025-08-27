@@ -1,0 +1,43 @@
+type Projectiles {
+  Id: string @unique @files(ext: [".ot", ".otc"])
+  AOFiles: [string] @file(ext: ".ao")
+  LoopAnimationIds: [string]
+  ImpactAnimationIds: [string]
+  ProjectileSpeed: i32
+  _: bool
+  _: i32
+  _: bool
+  _: bool
+  InheritsFrom: string @files(ext: [".ot", ".otc"])
+  ImpactEffect: MiscAnimated
+  _: i32
+  _: bool
+  _: bool
+  Stuck_AOFile: [string] @file(ext: ".ao")
+  Bounce_AOFile: string @file(ext: ".ao")
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  MuzzleFlashEffect: MiscAnimated
+  ArrowNovaEffect: MiscAnimated
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  _: [string]
+  _: bool
+  _: [i32]
+  _: string
+  BounceEffect: MiscAnimated
+  TerrainHitEffect: MiscAnimated
+  DamageEffectVariation: DamageEffectVariations
+  _: bool
+  _: string
+  DamageEffectVariationPierce: DamageEffectVariations
+  _: string
+  BallisticBounceOverride: BallisticBounceOverride
+  _: string
+  _: [string]
+}

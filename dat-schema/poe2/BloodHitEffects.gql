@@ -1,0 +1,7 @@
+type BloodHitEffects {
+  BloodType: BloodTypes
+  _: i32
+  DamageEffectVariation: DamageEffectVariations
+  _: rid
+  _: rid
+}

@@ -1,0 +1,5 @@
+type SkillEvents {
+  Id: string @unique
+  CharacterAudioEvents: CharacterAudioEvents
+  Hash32: i32
+}

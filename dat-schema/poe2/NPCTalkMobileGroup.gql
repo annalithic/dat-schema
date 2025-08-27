@@ -1,0 +1,5 @@
+type NPCTalkMobileGroup {
+  _: string
+  _: string
+  _: string
+}

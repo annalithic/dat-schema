@@ -1,0 +1,12 @@
+type BloodTypes {
+  Id: string @unique
+  ExtraGoreGibs: [MiscAnimated]
+  PunctureVisual: BuffVisuals
+  PunctureMovingVisual: BuffVisuals
+  _: f32
+  _: f32
+  _: f32
+  OnDeathEffectPacks: [MiscEffectPacks]
+  CorpseStainEffectPacks: [MiscEffectPacks]
+  CorpseExplodeEffectPack: MiscEffectPacks
+}

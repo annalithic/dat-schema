@@ -1,0 +1,15 @@
+type MonsterShapeshift {
+  _: i32
+  MonsterVariety1: MonsterVarieties
+  MonsterVariety2: MonsterVarieties
+  EffectPack1: MiscEffectPacks
+  EffectPack2: MiscEffectPacks
+  Joints1: [string]
+  Joints2: [string]
+  Joints3: [string]
+  Joints4: [string]
+  ShapeshiftedBuff: BuffTemplates
+  _: rid
+  _: string
+  _: string
+}

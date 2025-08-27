@@ -1,0 +1,8 @@
+type MonsterPackEntries {
+  Id: string @unique
+  MonsterPacksKey: MonsterPacks
+  _: bool
+  _: i32
+  MonsterVarietiesKey: MonsterVarieties
+  _: string
+}

@@ -1,0 +1,20 @@
+type CharacterStartStates {
+  Id: string @unique
+  Description: string
+  CharactersKey: Characters
+  Level: i32
+  PassiveSkillsKeys: [PassiveSkills]
+  CharacterStartStateSetKey: CharacterStartStateSet
+  WorldArea: WorldAreas
+  CharacterStartQuestStateKeys: [CharacterStartQuestState]
+  _: bool
+  InfoText: string
+  Ascendancy: Ascendancy
+  Set1PassiveSkills: [PassiveSkills]
+  Set2PassiveSkills: [PassiveSkills]
+  _: [rid]
+  _: [rid]
+  AttributePassiveSkills: [PassiveSkills]
+  AttributePassiveChoices: [PassiveSkills]
+  _: bool
+}

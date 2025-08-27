@@ -1,0 +1,10 @@
+type ActiveSettings {
+  _: string @unique
+  _: i32
+  _: i32
+  _: i32
+  _: rid
+  _: rid
+  _: rid
+  _: rid
+}

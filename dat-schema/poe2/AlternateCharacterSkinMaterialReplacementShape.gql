@@ -1,0 +1,5 @@
+type AlternateCharacterSkinMaterialReplacementShape {
+  Character: Characters
+  _: i32
+  MeshShapes: [string]
+}

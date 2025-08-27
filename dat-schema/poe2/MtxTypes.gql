@@ -1,0 +1,25 @@
+type MtxTypes {
+  Id: string @unique
+  Hash32: u32
+  Name: string
+  _: string
+  Description: string
+  _: string
+  _: string
+  CategoryName: string
+  _: rid
+  _: rid
+  ShopTag: ShopTag
+  _: string
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  _: i32
+  _: bool
+  _: string
+  _: bool
+  _: bool
+  _: bool
+  _: string
+}

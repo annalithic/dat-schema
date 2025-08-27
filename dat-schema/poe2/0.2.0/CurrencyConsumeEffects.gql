@@ -1,0 +1,6 @@
+type CurrencyConsumeEffects {
+  BaseItemType: BaseItemTypes
+  _: string
+  _: string
+  _: f32
+}

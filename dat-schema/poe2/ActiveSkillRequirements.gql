@@ -1,0 +1,13 @@
+type ActiveSkillRequirements {
+  GrantedEffect: GrantedEffects
+  RequirementBuffDefinition: BuffDefinitions
+  RequirementCount: i32
+  _: bool
+  _: rid
+  _: rid
+  RequirementStat: Stats
+  _: i32
+  _: bool
+  _: bool
+  _: bool
+}

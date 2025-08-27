@@ -1,0 +1,8 @@
+type NPCShops {
+  Id: string @unique
+  _: i32
+  _: NPCShop
+  _: NPCShop
+  _: NPCShop
+  _: NPCShop
+}

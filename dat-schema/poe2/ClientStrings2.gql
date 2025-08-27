@@ -1,0 +1,9 @@
+type ClientStrings2 {
+  Id: string @unique
+  Text: string
+  _: string
+  _: string
+  Hash32: u32
+  _: string
+  _: string
+}

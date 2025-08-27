@@ -1,0 +1,5 @@
+type CorpseSinkAreaOverrides {
+  WorldArea: WorldAreas
+  _: i32
+  _: i32
+}

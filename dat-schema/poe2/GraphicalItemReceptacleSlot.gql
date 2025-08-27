@@ -1,0 +1,11 @@
+type GraphicalItemReceptacleSlot {
+  GraphicalItemReceptacle: GraphicalItemReceptacle
+  Slot: i32
+  _: rid
+  _: i32
+  Glow: string
+  Socket: string
+  BaseItemType: BaseItemTypes
+  SoundEffect: SoundEffects
+  ScriptVariable: string
+}

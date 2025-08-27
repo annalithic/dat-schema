@@ -1,0 +1,7 @@
+type MicrotransactionCategory {
+  Id: MicrotransactionCategoryId
+  Name: string
+  _: i32
+  _: [i32]
+  _: i32
+}

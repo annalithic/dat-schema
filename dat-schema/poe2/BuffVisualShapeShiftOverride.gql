@@ -1,0 +1,5 @@
+type BuffVisualShapeShiftOverride {
+  BuffVisual: BuffVisuals
+  ShapeshiftForm: ShapeShiftForms
+  OverrideEffectPacks: [string] @file(ext: ".epk")
+}

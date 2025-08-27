@@ -1,0 +1,7 @@
+type CosmeticsPanelTab {
+  Id: string @unique
+  MicrotransactionSlots: [MicrotransactionSlot]
+  Name: string
+  MicrotransactionCategories: [MicrotransactionCategory]
+  BackgroundUiImage: string
+}

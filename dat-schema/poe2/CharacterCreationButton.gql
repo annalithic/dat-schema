@@ -1,7 +1,7 @@
 type CharacterCreationButton {
-  _: rid
-  _: string
-  _: string
-  _: string
-  _: string
+  Character: Characters
+  Texture: string @file(ext: ".dds")
+  TextureHovered: string @file(ext: ".dds")
+  TextureSelected: string @file(ext: ".dds")
+  TextureSelectedHovered: string @file(ext: ".dds")
 }

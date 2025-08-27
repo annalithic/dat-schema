@@ -1,0 +1,5 @@
+type ItemDisenchantValues {
+  Rarity: Rarity
+  Result: BaseItemTypes
+  Count: i32
+}

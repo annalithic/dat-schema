@@ -1,0 +1,7 @@
+type MtxTypeGameSpecific {
+  MtxType: MtxTypes @unique
+  Hash32: u32
+  Icon: string @file(ext: ".dds")
+  _: i32
+  _: [i32]
+}

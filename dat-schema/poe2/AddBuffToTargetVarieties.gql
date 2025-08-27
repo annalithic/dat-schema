@@ -1,6 +1,12 @@
 type AddBuffToTargetVarieties {
   BuffDefinitions: BuffDefinitions
   _: [i32]
-  StatsKeys: [Stats]
+  Stats: [Stats]
   _: i32
+  _: i32
+  _: i32
+  _: [i32]
+  Stats2: [Stats]
+  _: [i32]
+  _: bool
 }

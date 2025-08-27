@@ -1,0 +1,6 @@
+type QuestItemNpcAudio {
+  QuestItem: QuestItems
+  TextAudio1: NPCTextAudio
+  TextAudio2: [NPCTextAudio]
+  QuestFlag: QuestFlags
+}

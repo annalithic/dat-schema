@@ -1,0 +1,6 @@
+type SanctumRewardObjects {
+  Id: string @unique
+  _: i32
+  _: bool
+  Description: ClientStrings
+}

@@ -1,0 +1,5 @@
+type StatConvertAltAttackContainer {
+  _: Stats
+  _: Stats
+  _: [Stats]
+}

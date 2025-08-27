@@ -1,0 +1,8 @@
+type BYOCrafting {
+  Id: string
+  Description1: string
+  _: string
+  Description2: string
+  _: string
+  _: [AchievementItems]
+}

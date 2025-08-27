@@ -1,0 +1,5 @@
+type AreaDifficultyStats {
+  DifficultyStat: Stats
+  Areas: [WorldAreas]
+  AreaStat: Stats
+}

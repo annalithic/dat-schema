@@ -1,6 +1,6 @@
 type CharacterMeleeSkills {
-  _: rid
-  _: rid
-  SkillGem: SkillGems
+  MainHandWieldableClass: WieldableClasses
+  OffHandWieldableClass: WieldableClasses
+  SkillGem: [SkillGems]
   _: bool
 }

@@ -1,0 +1,20 @@
+type SingleGroundLaser {
+  Id: i32
+  Beam: MiscBeams
+  Impact: MiscAnimated
+  _: i32
+  _: string
+  _: bool
+  _: i32
+  _: bool
+  _: i32
+  _: i32
+  BeamPulse: MiscBeams
+  ImpactPulse: MiscAnimated
+  _: i32
+  _: bool
+  _: i32
+  _: i32
+  _: i32
+  _: bool
+}

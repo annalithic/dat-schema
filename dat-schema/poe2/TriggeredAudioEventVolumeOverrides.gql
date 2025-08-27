@@ -1,0 +1,6 @@
+type TriggeredAudioEventVolumeOverrides {
+  AnimatedObject: string @file(ext: ".ao")
+  _: f32
+  ActionTypes: [ActionTypes]
+  _: f32
+}

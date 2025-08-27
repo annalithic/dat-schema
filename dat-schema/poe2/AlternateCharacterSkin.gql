@@ -1,0 +1,15 @@
+type AlternateCharacterSkin {
+  Id: string @unique
+  StrMat: string @file(ext: ".mat")
+  StrBMat: string @file(ext: ".mat")
+  IntMat: string @file(ext: ".mat")
+  IntBMat: string @file(ext: ".mat")
+  DexMat: string @file(ext: ".mat")
+  DexBMat: string @file(ext: ".mat")
+  StrDexMat: string @file(ext: ".mat")
+  StrDexBMat: string @file(ext: ".mat")
+  IntStrMat: string @file(ext: ".mat")
+  IntStrBMat: string @file(ext: ".mat")
+  DexIntMat: string @file(ext: ".mat")
+  DexIntBMat: string @file(ext: ".mat")
+}

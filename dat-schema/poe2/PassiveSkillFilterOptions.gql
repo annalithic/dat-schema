@@ -1,0 +1,11 @@
+type PassiveSkillFilterOptions {
+  Id: string @unique
+  _: string
+  _: rid
+  _: i32
+  _: string
+  _: bool
+  _: bool
+  _: bool
+  _: bool
+}

@@ -1,0 +1,8 @@
+type MiniQuestStates {
+  _: i32
+  _: [QuestFlags]
+  _: [QuestFlags]
+  _: string
+  _: i32
+  _: string
+}

@@ -1,0 +1,5 @@
+type AreaStatsPerDifficulty {
+  AreaDifficultyStat: AreaDifficultyStats
+  _: i32
+  _: i32
+}

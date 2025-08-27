@@ -1,0 +1,11 @@
+type GraphicalItemReceptacle {
+  Id: string @unique
+  SocketBacground: string
+  OpenButtonText: ClientStrings
+  _: bool
+  _: bool
+  ActivateSoundEffect: SoundEffects
+  ButtonBackground: string
+  MissingItemsText: ClientStrings
+  ActivateScript: string
+}

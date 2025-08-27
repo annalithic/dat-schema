@@ -1,0 +1,5 @@
+type Scarabs {
+  Category: i32
+  Tier: i32
+  BaseItemType: BaseItemTypes
+}

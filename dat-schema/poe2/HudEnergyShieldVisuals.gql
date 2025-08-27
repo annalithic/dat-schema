@@ -1,0 +1,14 @@
+﻿type HudEnergyShieldVisuals {
+  Id: string @unique
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: bool
+  _: string
+  _: string
+}

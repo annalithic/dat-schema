@@ -1,0 +1,6 @@
+type EnvironmentFootprints {
+  FootstepAudio: FootstepAudio
+  _: i32
+  AnimatedObject: [string]
+ @file(ext: ".ao")
+}

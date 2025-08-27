@@ -1,0 +1,7 @@
+type ThreeToOneRecipes {
+  _: string
+  _: BaseItemTypes
+  _: BaseItemTypes
+  _: i32
+  _: rid
+}

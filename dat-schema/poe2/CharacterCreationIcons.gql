@@ -1,0 +1,7 @@
+type CharacterCreationIcons {
+  Id: string @unique
+  Name: string
+  Description: string
+  Video: string @file(ext: ".bk2")
+  Icon: string @file(ext: ".dds")
+}

@@ -1,0 +1,13 @@
+type DisplayCaseTypes {
+  Id: string @unique
+  _: i32
+  UiImageHoverLeft: string
+  UiImageHoverMiddle: string
+  UiImageHoverRight: string
+  UiImageGlass: string
+  UiImageGlassCracked: string
+  UiImageCornerLeftTop: string
+  UiImageCornerRightTop: string
+  UiImageCornerLeftBottom: string
+  UiImageCornerRightBottom: string
+}

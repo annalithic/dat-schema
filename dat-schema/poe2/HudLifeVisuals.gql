@@ -1,0 +1,19 @@
+﻿type HudLifeVisuals {
+  Id: string @unique
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: string
+  _: i32
+  _: string
+  _: string
+  _: string
+  _: string
+}

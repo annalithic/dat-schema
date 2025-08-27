@@ -1,0 +1,7 @@
+type QuestRewardType {
+  Id: string @unique
+  Icon: string @file(ext: ".dds")
+  Name: string
+  Description: string
+  BaseItemType: BaseItemTypes
+}

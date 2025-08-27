@@ -1,0 +1,6 @@
+type SanctumBalancePerLevel {
+  Level: i32
+  _: i32
+  _: i32
+  _: i32
+}

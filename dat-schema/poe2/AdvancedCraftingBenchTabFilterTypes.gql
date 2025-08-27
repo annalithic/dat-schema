@@ -1,0 +1,7 @@
+type AdvancedCraftingBenchTabFilterTypes {
+  Id: string
+  Title: string
+  Icon: string
+  Tags: [Tags]
+  _: [_]
+}

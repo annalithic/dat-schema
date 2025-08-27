@@ -1,0 +1,5 @@
+type CharacterVariationGroups {
+  Id: string @unique
+  CharacterA: Characters
+  CharacterB: Characters
+}

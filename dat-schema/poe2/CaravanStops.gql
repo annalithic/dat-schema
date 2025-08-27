@@ -1,0 +1,16 @@
+type CaravanStops {
+  WorldArea: WorldAreas
+  Tileset: string @file(ext: ".tsi")
+  _: f32
+  _: i32
+  _: i32
+  _: i32
+  QuestFlag: QuestFlags
+  Script: string
+  _: string
+  MapPin1: MapPins
+  _: rid
+  SubAreas: [WorldAreas]
+  MapPin2: MapPins
+  _: rid
+}
