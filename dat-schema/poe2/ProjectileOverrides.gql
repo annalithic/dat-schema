@@ -4,4 +4,5 @@ type ProjectileOverrides {
   _: string @file(ext: ".ao")
   _: [string] @file(ext: ".ao")
   ArrowVisual: ItemVisualIdentity
+  _: string @file(ext: ".fmt")
 }

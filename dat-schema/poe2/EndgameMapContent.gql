@@ -13,4 +13,8 @@ type EndgameMapContent {
   StatsValues: [i32]
   Description: string
   Name: string
+  KeywordPopup: KeywordPopups
+  _: [i32]
+  ObjectiveText: string
+  CompletionText: string
 }

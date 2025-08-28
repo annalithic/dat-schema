@@ -1,2 +1,6 @@
 type MiscParticles {
+  Id: string @unique
+  _: string @file(ext: ".pet")
+  _: i32
+  _: [rid]
 }
